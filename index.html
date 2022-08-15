@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OOB-IT | A Smarter Way To Live Smart</title>
+     <!-- Favicons -->
+  <link href="assets/Fav.png" rel="icon">
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
       integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
@@ -30,21 +32,14 @@
   <body>
     <!-- .....nav bar section..... -->
     <div class="container">
-
-
-      <nav class="navbar navbar-expand-lg navbar-light">
-
+      <nav id="navbar" class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <div>
-            <img
-              class="navbar-brand"
-
-   
-              src="./Assets/Nav Logo.svg"
-              alt="logo"
-              class="logo"
-            />
-            <a href="#">&nbsp; OOB-IT</a>
+            <a class="navbar-brand" href="#"><img
+              src="./assets/Brand-Name.png"
+              alt="Brand-Name"
+              class="brand"
+            /></a>
             <button
               class="navbar-toggler"
               type="button"
@@ -65,13 +60,19 @@
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link scrollto active" href="#hero">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link scrollto" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link scrollto" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrollto" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrollto" href="#contact">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -80,23 +81,27 @@
     </div>
 
     <!-- ....end of nav.... -->
-
-
     <!-- .......start of intro.... -->
-
-    <div class="container">
+    <div id="hero">
+      <div class="container">
         
       <div style="margin-top: 200px" class="text-center">
-        <h1 >Launch your awesome startup now!</h1>
+        <h1 >Going Dark is no longer an option!</h1>
         <p >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto</br>
           provident qui tempore natus quos quibusdam soluta at.
         </p>
       </div>
-
     </div>
-
+    </div>
     <!-- .....end of intro.... -->
-
+    <!-- ---ABOUT--- -->
+        <div id="about">
+      <div class="container">
+        <h1>Hello</h1>
+      </div>
+    </div>
+    <!-- ---END OF ABOUT--- -->
+<script src="assets/js/main.js"></script>
   </body>
 </html>

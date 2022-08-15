@@ -1,4 +1,4 @@
-/* -----Elementory----- */
+/* ========== GLOBAL STYLES  ========== */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 * {
   margin: 0;
@@ -30,7 +30,6 @@
 html {
   scroll-behavior: smooth;
 }
-/* -----Elementory----- */
 
 body {
   font-family: "Poppins", sans-serif;
@@ -38,26 +37,6 @@ body {
   color: var(--color-white);
   line-height: 1.7;
 }
-
-/* ...nav bar style.. */
-.navbar-brand {
-
-    position: relative;
-    width: 40px;
-    left: 15px;
-}
-
-body {
-    background-color: #030418;
-}
-
-.fontTitle{
-font-family: 'Montserrat'
-}
-
-
-/* ========== GENERAL STYLES  ========== */
-
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
@@ -95,14 +74,14 @@ section > h2 {
   color: var(--color-light);
 }
 
-a {
+/* a {
   color: var(--color-primary);
   transition: var(--transition);
 }
 
 a:hover {
   color: var(--color-white);
-}
+} */
 
 .btn {
   width: max-content;
@@ -131,6 +110,37 @@ img {
   width: 100%;
   object-fit: cover;
 }
+/* ========== GLOBAL STYLES  ========== */
+/* ========== NAVBAR STYLES  ========== */
+.navbar-brand {
+  margin: auto;
+  position: relative;
+  width: 25%;
+}
+
+.nav-item > a {
+  color: var(--color-nav-item);
+  transition: var(--transition);
+}
+
+.nav-item > .nav-link.active {
+  color: var(--color-primary);
+}
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
+  color: var(--color-primary);
+}
+/* ========== NAVBAR STYLES  ========== */
+
+/* ========== HERO STYLES ========== */
+#hero {
+  color: var(--color-white);
+  height: 100vh;
+  width: 100%;
+}
+/* ========== HERO STYLES ========== */
 
 /* =========== MEDIA QUERIES(MEDIUM-DEVICES> =========== */
 
